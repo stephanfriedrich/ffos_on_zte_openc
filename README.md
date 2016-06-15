@@ -15,7 +15,9 @@ update Instructions for ffos 2.6 (Firefox OS 2.6) on Zte Open C
 
 ### adb permission denied
 1] Add the following lines in /etc/udev/android.rules
+
 SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", ATTR{idProduct}=="1350", MODE="0666", GROUP="plugdev"
+
 SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0666", GROUP="plugdev"
 
 
